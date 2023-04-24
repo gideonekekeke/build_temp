@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
 	return (
@@ -22,32 +21,29 @@ const NavBar = () => {
 				</div>
 				<nav>
 					<ul class='menu-aside'>
-						<NavLink to='/admin-dashboard'>
-							<li class='menu-item active '>
-								<a class='menu-link  '>
-									<i class='icon material-icons md-home'></i>
-									<span class='text'>Dashboard</span>
-								</a>
-							</li>
-						</NavLink>
+						<li class='menu-item active '>
+							<a href='admin-dashboard' class='menu-link '>
+								<i class='icon material-icons md-home'></i>
+								<span class='text'>Dashboard</span>
+							</a>
+						</li>
 
-						<NavLink to='/products'>
-							<li class='menu-item'>
-								<a class='menu-link'>
-									<i class='icon material-icons md-shopping_bag'></i>
-									<span class='text'>Products</span>
-								</a>
-							</li>
-						</NavLink>
+						<li class='menu-item'>
+							<a href='/products' class='menu-link'>
+								<i class='icon material-icons md-shopping_bag'></i>
+								<span class='text'>Products</span>
+							</a>
+						</li>
 
 						<li class='menu-item has-submenu'>
-							<a class='menu-link' href='page-orders-1.html'>
+							<a class='menu-link' href='/orderlist-1'>
 								<i class='icon material-icons md-shopping_cart'></i>
 								<span class='text'>Orders</span>
 							</a>
 							<div class='submenu'>
-								<a href='page-orders-1.html'>Order list</a>
-								<a href='page-orders-detail.html'>Order detail</a>
+								<a href='/orderlist-1'>Order list1</a>
+								<a href='/orderlist-2'>Order list2</a>
+								<a href='/orderlist-details'>Order detail</a>
 							</div>
 						</li>
 						<li class='menu-item has-submenu'>

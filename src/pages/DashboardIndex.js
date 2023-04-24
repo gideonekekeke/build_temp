@@ -78,11 +78,14 @@ const DashboardIndex = () => {
 						<div class='card mb-4'>
 							<article class='card-body'>
 								<h5 class='card-title'>Sale statistics</h5>
+								<p>This the Chart display</p>
 								<canvas
 									id='myChart'
 									style={{
 										height: "120px",
-									}}></canvas>
+									}}>
+									Chats
+								</canvas>
 							</article>
 						</div>
 						<div class='row'>
@@ -242,6 +245,7 @@ const DashboardIndex = () => {
 						<div class='card mb-4'>
 							<article class='card-body'>
 								<h5 class='card-title'>Payment Method</h5>
+								<p>This the Chart display</p>
 								<canvas id='myChart2' height='217'></canvas>
 							</article>
 						</div>
