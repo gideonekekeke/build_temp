@@ -28,11 +28,16 @@ const NavBar = () => {
 							</a>
 						</li>
 
-						<li class='menu-item'>
-							<a href='/products' class='menu-link'>
+						<li class='menu-item has-submenu'>
+							<a class='menu-link' href='#'>
 								<i class='icon material-icons md-shopping_bag'></i>
 								<span class='text'>Products</span>
 							</a>
+							<div class='submenu'>
+								<a href='/products'>Product List</a>
+								<a href='/product-grid'>Product grid</a>
+								<a href='/product-category'>Categories</a>
+							</div>
 						</li>
 
 						<li class='menu-item has-submenu'>
@@ -46,22 +51,14 @@ const NavBar = () => {
 								<a href='/orderlist-details'>Order detail</a>
 							</div>
 						</li>
+
 						<li class='menu-item has-submenu'>
-							<a class='menu-link' href='page-form-product-1.html'>
-								<i class='icon material-icons md-add_box'></i>
-								<span class='text'>Add product</span>
-							</a>
-							<div class='submenu'>
-								<a href='page-form-product-1.html'>Add product 1</a>
-							</div>
-						</li>
-						<li class='menu-item has-submenu'>
-							<a class='menu-link' href='page-transactions-1.html'>
+							<a class='menu-link' href='/transactions'>
 								<i class='icon material-icons md-monetization_on'></i>
 								<span class='text'>Transactions</span>
 							</a>
 							<div class='submenu'>
-								<a href='page-transactions.html'>Transaction</a>
+								<a href='/transactions'>Transaction</a>
 							</div>
 						</li>
 						<li class='menu-item has-submenu'>
@@ -70,27 +67,21 @@ const NavBar = () => {
 								<span class='text'>Account</span>
 							</a>
 							<div class='submenu'>
-								<a href='page-account-login.html'>User login</a>
-								<a href='page-account-register.html'>User registration</a>
-								<a href='page-error-404.html'>Error 404</a>
+								<a href='/user-login'>User login</a>
+								<a href='/user-registration'>User registration</a>
+								<a href='/error404-page'>Error 404</a>
 							</div>
 						</li>
 						<li class='menu-item'>
-							<a class='menu-link' href='page-reviews.html'>
+							<a class='menu-link' href='/reviews'>
 								<i class='icon material-icons md-comment'></i>
 								<span class='text'>Reviews</span>
 							</a>
 						</li>
 						<li class='menu-item'>
-							<a class='menu-link' href='page-brands.html'>
+							<a class='menu-link' href='/brands'>
 								<i class='icon material-icons md-stars'></i>{" "}
 								<span class='text'>Brands</span>
-							</a>
-						</li>
-						<li class='menu-item'>
-							<a class='menu-link' disabled href='#'>
-								<i class='icon material-icons md-pie_chart'></i>
-								<span class='text'>Statistics</span>
 							</a>
 						</li>
 					</ul>
@@ -102,14 +93,8 @@ const NavBar = () => {
 								<span class='text'>Settings</span>
 							</a>
 							<div class='submenu'>
-								<a href='page-settings-1.html'>Setting sample</a>
+								<a href='/settings'>Setting sample</a>
 							</div>
-						</li>
-						<li class='menu-item'>
-							<a class='menu-link' href='page-blank.html'>
-								<i class='icon material-icons md-local_offer'></i>
-								<span class='text'> Starter page </span>
-							</a>
 						</li>
 					</ul>
 					<br />
