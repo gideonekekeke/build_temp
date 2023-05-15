@@ -12,7 +12,7 @@ const Products = () => {
               <a href="#" class="btn btn-light rounded font-md">Export</a>
               <a href="#" class="btn btn-light rounded font-md">Import</a>
               <a href="#" class="btn btn-light rounded font-md">Set as daily best deal</a>
-              <a href="page-form-product-1.html " class="btn btn-primary"
+              <a href="/add-product" class="btn btn-primary"
                   ><i class="text-muted material-icons md-post_add"></i>Add product</a
               >
           </div>

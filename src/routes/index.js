@@ -16,6 +16,8 @@ import Transactions from "../pages/Transactions";
 import UserLogin from "../pages/UserLogin";
 import UserRegistration from "../pages/UserRegistration";
 import { ErrorBoundary } from "../utils";
+import ProductGrid from "../pages/ProductGrid";
+import AddProducts from "../pages/AddProducts";
 
 export const AllRoutes = createBrowserRouter([
 	{
@@ -43,7 +45,12 @@ export const AllRoutes = createBrowserRouter([
 
 					{
 						path: "product-grid",
-						element: <Products />,
+						element: <ProductGrid />,
+					},
+
+					{
+						path: "add-product",
+						element: <AddProducts />,
 					},
 
 					{
